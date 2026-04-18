@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="We offer authentic and delicious tasting Japanese in Cherry Hill, NJ. Order online for pickup and enjoy your favorite dishes in the comfort of your home. You can order online, you can also call our phone (856) 665-4411, you are welcome to visit">
+  <meta name="keywords" content="Mikado Japanese Restaurant, Cherry Hill Japanese delivery, Cherry Hill Japanese food, Japanese restaurants near me">
+  <meta name="author" content="Mikado Japanese Restaurant">
+  <title>Mikado Japanese Restaurant — Cherry Hill, NJ</title>
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://www.menuorg.com/order/static/bitbug_favicon3.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "@id": "https://www.mikadojapanese.com/#restaurant",
+    "name": "Mikado Japanese Restaurant",
+    "url": "https://www.mikadojapanese.com",
+    "telephone": "(856) 665-4411",
+    "description": "We offer authentic and delicious tasting Japanese in Cherry Hill, NJ.",
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "186" },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "2320 Marlton Pike W",
+      "addressLocality": "Cherry Hill",
+      "addressRegion": "NJ",
+      "postalCode": "08002"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": "39.925505", "longitude": "-75.048189" },
+    "priceRange": "$$",
+    "servesCuisine": "Japanese",
+    "acceptsReservations": "Yes"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <header id="site-header">
+    <nav class="navbar">
+      <div class="nav-container">
+        <a class="navbar-brand" href="index.html">
+          <span class="brand-kanji">御</span>
+          <span class="brand-text">Mikado</span>
+        </a>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+
+        <div class="nav-links" id="navLinks">
+          <a href="index.html" class="nav-link active">Home</a>
+          <a href="about.html" class="nav-link">Story</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+          <a href="https://menuorg.online/mobile-shop/shop/20227" class="nav-cta" target="_blank" rel="noopener">Order Online</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="hero">
+      <div class="hero-video-wrap">
+        <video class="hero-video" autoplay loop muted playsinline>
+          <source src="https://menuorg.com/tmp/mikado/static/sushi-video.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-text-col">
+          <p class="hero-eyebrow animate-in" style="--delay:0.1s">Cherry Hill, New Jersey</p>
+          <h1 class="hero-title animate-in" style="--delay:0.25s">Welcome to<br><em>Mikado</em></h1>
+          <p class="hero-sub animate-in" style="--delay:0.4s">Authentic Japanese dining — sushi, hibachi,<br>and the finest sashimi in South Jersey.</p>
+          <div class="hero-actions animate-in" style="--delay:0.55s">
+            <a href="https://menuorg.online/mobile-shop/shop/20227" class="btn-primary" target="_blank" rel="noopener">Order Online</a>
+            <a href="#about" class="btn-ghost">Our Story</a>
+          </div>
+        </div>
+
+        <div class="hero-carousel-col animate-in" style="--delay:0.35s">
+          <div class="carousel" id="heroCarousel">
+            <div class="carousel-track" id="carouselTrack">
+              <div class="carousel-slide active">
+                <div class="slide-img-wrap">
+                  <img src="https://menuorg.com/tmp/mikado/static/image/menu/10006.jpg" alt="Beef Asparagus">
+                </div>
+                <div class="slide-info">
+                  <span class="slide-label">Kitchen Favourite</span>
+                  <h3 class="slide-name">Beef Asparagus</h3>
+                </div>
+              </div>
+              <div class="carousel-slide">
+                <div class="slide-img-wrap">
+                  <img src="https://menuorg.com/tmp/mikado/static/image/menu/10042.jpg" alt="East Roll">
+                </div>
+                <div class="slide-info">
+                  <span class="slide-label">Sushi Bar</span>
+                  <h3 class="slide-name">East Roll <span class="slide-price">$7.95</span></h3>
+                </div>
+              </div>
+              <div class="carousel-slide">
+                <div class="slide-img-wrap">
+                  <img src="https://menuorg.com/tmp/mikado/static/image/menu/10020.jpg" alt="Sushi and Sashimi Combo">
+                </div>
+                <div class="slide-info">
+                  <span class="slide-label">Chef's Choice</span>
+                  <h3 class="slide-name">Sushi &amp; Sashimi Combo <span class="slide-price">$47.95</span></h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-controls">
+              <button class="carousel-btn prev" id="carouselPrev" aria-label="Previous slide">
+                <i class="bi bi-arrow-left"></i>
+              </button>
+              <div class="carousel-dots" id="carouselDots">
+                <button class="dot active" data-index="0"></button>
+                <button class="dot" data-index="1"></button>
+                <button class="dot" data-index="2"></button>
+              </div>
+              <button class="carousel-btn next" id="carouselNext" aria-label="Next slide">
+                <i class="bi bi-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="hero-scroll-hint" aria-label="Scroll down">
+        <span>Scroll</span>
+        <i class="bi bi-arrow-down"></i>
+      </a>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="about section-pad" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text">
+            <span class="section-eyebrow">Our Story</span>
+            <h2 class="section-title">A warm welcome<br><em>always awaits</em></h2>
+            <p>We are delighted to welcome back our existing friends as well as new ones to Mikado's in Cherry Hill. We know you'll enjoy your time with us — we want to make sure your experience is always exceptional.</p>
+            <p>Please enjoy our sizzling hibachi steak, served tableside, and our amazing sushi offerings, all totally prepared on site. Since we are a BYOB, we invite you to bring your favorite bottle to make your dining experience even nicer!</p>
+            <p>Besides our many, very spacious inside dining areas, we also offer comfortable outside dining as well as 2 party rooms seating up to 10 guests per room for your special events. Let our hosts Kenny &amp; Tony Lin and our entire staff welcome you with a smile.</p>
+            <a href="https://menuorg.online/mobile-shop/shop/20227" class="btn-primary" target="_blank" rel="noopener">Order Online</a>
+          </div>
+          <div class="about-features">
+            <div class="feature-card">
+              <div class="feature-icon"><i class="bi bi-geo-alt"></i></div>
+              <h4>Cherry Hill, NJ</h4>
+              <p>2320 Marlton Pike W<br>Cherry Hill, NJ 08002</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon"><i class="bi bi-clock"></i></div>
+              <h4>Hours</h4>
+              <p>Mon – Fri<br>11:30 AM – 10:30 PM</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon"><i class="bi bi-telephone"></i></div>
+              <h4>Reservations</h4>
+              <p><a href="tel:8566654411">(856) 665-4411</a></p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon"><i class="bi bi-cup-hot"></i></div>
+              <h4>BYOB</h4>
+              <p>Bring your favourite<br>bottle &amp; enjoy!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== MENU ===================== -->
+    <section class="menu-section section-pad" id="menu">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Fresh Daily</span>
+          <h2 class="section-title">Special <em>Menus</em></h2>
+          <p class="section-desc">Handcrafted with the finest ingredients — from our kitchen and sushi bar to your table.</p>
+        </div>
+
+        <div class="menu-grid">
+
+          <div class="menu-card">
+            <div class="menu-card-img">
+              <img src="https://www.menuorg.com/image/webp/dishes_photo/1771630099_10.jpg" alt="Edamame" loading="lazy">
+              <span class="menu-category">Appetizers · Kitchen</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <h4>Edamame</h4>
+                <span class="menu-price">$6.25</span>
+              </div>
+              <div class="menu-rating">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                </div>
+                <span>4.3 · 102 reviews</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-card">
+            <div class="menu-card-img">
+              <img src="https://www.menuorg.com/image/webp/dishes_photo/1772146995_33.jpg" alt="Beef Asparagus" loading="lazy">
+              <span class="menu-category">Appetizers · Kitchen</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <h4>Beef Asparagus</h4>
+                <span class="menu-price">$12.50</span>
+              </div>
+              <div class="menu-rating">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i><i class="bi bi-star"></i>
+                </div>
+                <span>3.0 · 50 reviews</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-card">
+            <div class="menu-card-img">
+              <img src="https://www.menuorg.com/image/webp/dishes_photo/1773180783_15.jpg" alt="Duck Roll" loading="lazy">
+              <span class="menu-category">Appetizers · Kitchen</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <h4>Duck Roll</h4>
+                <span class="menu-price">$12.95</span>
+              </div>
+              <div class="menu-rating">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i><i class="bi bi-star"></i>
+                </div>
+                <span>3.0 · 86 reviews</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-card">
+            <div class="menu-card-img">
+              <img src="https://www.menuorg.com/image/webp/dishes_photo/1663898414_67.jpg" alt="Amazing Shrimp" loading="lazy">
+              <span class="menu-category">Appetizers · Kitchen</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <h4>Amazing Shrimp</h4>
+                <span class="menu-price">$13.95</span>
+              </div>
+              <div class="menu-rating">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i><i class="bi bi-star"></i>
+                </div>
+                <span>3.0 · 44 reviews</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-card">
+            <div class="menu-card-img">
+              <img src="https://www.menuorg.com/image/webp/dishes_photo/1773411804_81.jpg" alt="Coconut Shrimp" loading="lazy">
+              <span class="menu-category">Appetizers · Kitchen</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <h4>Coconut Shrimp</h4>
+                <span class="menu-price">$11.95</span>
+              </div>
+              <div class="menu-rating">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                </div>
+                <span>4.3 · 102 reviews</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-card">
+            <div class="menu-card-img">
+              <img src="https://www.menuorg.com/image/webp/dishes_photo/1671135141_52.jpg" alt="Sushi" loading="lazy">
+              <span class="menu-category">Appetizers · Sushi Bar</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-top">
+                <h4>Sushi</h4>
+                <span class="menu-price">$13.95</span>
+              </div>
+              <div class="menu-rating">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                </div>
+                <span>4.0 · 64 reviews</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="menu-cta">
+          <a href="https://menuorg.online/mobile-shop/shop/20227" class="btn-primary" target="_blank" rel="noopener">View Full Menu &amp; Order</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== REVIEWS ===================== -->
+    <section class="reviews-section section-pad" id="reviews">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Testimonials</span>
+          <h2 class="section-title">What our guests <em>say</em></h2>
+        </div>
+        <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+        <div class="elfsight-app-6e30db16-a120-46b0-9623-d3b15f6b701e" data-elfsight-app-lazy></div>
+      </div>
+    </section>
+
+    <!-- ===================== LOCATION ===================== -->
+    <section class="location-section section-pad" id="location">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Find Us</span>
+          <h2 class="section-title">Our <em>Location</em></h2>
+        </div>
+        <div class="location-grid">
+          <div class="location-info">
+            <div class="location-item">
+              <i class="bi bi-geo-alt-fill"></i>
+              <div>
+                <h4>Address</h4>
+                <p>2320 Marlton Pike W<br>Cherry Hill, NJ 08002</p>
+              </div>
+            </div>
+            <div class="location-item">
+              <i class="bi bi-clock-fill"></i>
+              <div>
+                <h4>Hours</h4>
+                <p>Monday – Friday<br>11:30 AM – 10:30 PM</p>
+              </div>
+            </div>
+            <div class="location-item">
+              <i class="bi bi-telephone-fill"></i>
+              <div>
+                <h4>Phone</h4>
+                <p><a href="tel:8566654411">(856) 665-4411</a></p>
+              </div>
+            </div>
+            <a href="https://menuorg.online/mobile-shop/shop/20227" class="btn-primary" target="_blank" rel="noopener">Order for Pickup</a>
+          </div>
+          <div class="location-map">
+            <iframe
+              title="Mikado Japanese Restaurant location"
+              width="100%"
+              height="100%"
+              frameborder="0"
+              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyChxMPh5PYld2qoQ0st1DU40wwYT1JDY4E&q=Mikado+Japanese+Restaurant,2320+Marlton+Pike+W,+Cherry+Hill,+NJ+08002&zoom=14&maptype=roadmap"
+              allowfullscreen
+              loading="lazy">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="brand-kanji">御</span>
+          <span class="brand-text">Mikado</span>
+          <p>Authentic Japanese dining in the heart of Cherry Hill, NJ. Sushi, hibachi, and more — crafted with care since day one.</p>
+        </div>
+        <div class="footer-col">
+          <h6>Location</h6>
+          <p>2320 Marlton Pike W<br>Cherry Hill, NJ 08002</p>
+        </div>
+        <div class="footer-col">
+          <h6>Hours</h6>
+          <p>Monday – Friday<br>11:30 AM – 10:30 PM</p>
+          <p><a href="tel:8566654411">(856) 665-4411</a></p>
+        </div>
+        <div class="footer-col">
+          <h6>Follow Us</h6>
+          <div class="social-links">
+            <a href="https://www.facebook.com/kenny.lin.357" aria-label="Facebook" target="_blank" rel="noopener"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/menuorg/" aria-label="Instagram" target="_blank" rel="noopener"><i class="bi bi-instagram"></i></a>
+          </div>
+          <a href="https://menuorg.online/mobile-shop/shop/20227" class="btn-primary mt-3" target="_blank" rel="noopener">Order Online</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 Mikado Japanese Restaurant. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Hidden inputs for legacy analytics -->
+  <input type="hidden" name="rdUrl" rd-url="https://menuorg.online/mobile-shop/shop/20227">
+  <input type="hidden" name="rdid" value="20227">
+
+  <script src="main.js"></script>
+</body>
+</html>
