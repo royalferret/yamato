@@ -201,7 +201,7 @@
   /* ---- Menu card — link to order page ---- */
   document.querySelectorAll('.menu-card').forEach(function (card) {
     card.addEventListener('click', function () {
-      window.open('https://menuorg.online/mobile-shop/shop/20227', '_blank', 'noopener');
+      window.open('', '_blank', 'noopener');
     });
   });
 
